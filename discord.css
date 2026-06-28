@@ -1,0 +1,195 @@
+body{
+    margin:0px;
+    font-family:Arial, sans-serif;
+    background: linear-gradient(135deg, #000003, #2c36b3) no-repeat;
+    color: white;
+    height: 100%;
+}
+
+header a{
+    font-size: 24px;
+}
+
+.logo {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.fa-angle-down {
+    color: gray;
+}
+
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center; 
+    padding: 0 40px;
+    margin-top: 30px;
+}
+
+ul {
+    padding: 0px;
+}
+
+a{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 35px;
+    font-weight: 100;
+}
+
+button{
+    background:transparent;
+    border:none;
+    color:white;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    padding:10px 15px;
+    border-radius: 15px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.menu a span {
+    transition: transform 200ms ease-in-out;
+}
+
+.menu a:hover {
+    background: #5c58e7;
+}
+
+.menu a:hover > span {
+    transform: rotate(180deg);
+}
+
+.login{
+    background:white;
+    color:black;
+    padding:10px 15px; 
+    border-radius:15px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 200ms;
+}
+
+.login:hover{
+    background: rgb(197, 200, 208);
+    padding:10px 15px; 
+    border-radius:15px;
+}
+
+.hero-essay {
+    margin: 0px 30px;
+}
+
+h1{
+    font-size: 56px;
+    font-weight: 1000;
+    line-height: 45px;
+}
+
+p{
+    width: 450px;
+    font-size: 20px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-img {
+    width: 900px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.img1{
+    width: 642px;
+    position: absolute;
+    top: 30px;    
+    left:200px;
+}
+
+.img2{
+    width: 190px;
+    position: absolute;
+    z-index: 99;
+    top: 330px;    
+    left:690px;
+}
+
+.img3{
+    width: 190px;
+    position: absolute;
+    z-index: 99;
+    top: 390px;    
+    left:30px;
+}   
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    gap: 20px;
+}
+
+.box{
+    background:white;
+    color:black;
+    padding:15px 20px; 
+    border-radius:10px;
+    width: 250px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    gap: 7px;
+    text-decoration: none;
+    transition: 200ms;
+}
+
+.box:hover{
+    background: rgb(197, 200, 208);
+    padding:15px 20px; 
+    border-radius:10px;
+    width: 250px;
+}
+
+.box2{
+    transition: background 200ms;
+    background:#5c58e7;
+    color:white;
+    padding:15px 20px; 
+    border-radius:10px;
+    width: 280px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-decoration: none;
+}
+
+.box2:hover{
+    background:linear-gradient(#4844cd, #2c2e7f);
+    padding:15px 20px; 
+    border-radius:10px;
+    width: 280px;
+}
